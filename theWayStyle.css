@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Hanken Book;
+    src: url(/font/hanken/Hanken-Book.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hanken Book;
+}
+
+:root {
+    --main-color: #fcd750;
+    --text-color: #2d2c4c;
+    --button-color: #20a5e6;
+}
+
+
+.main {
+    max-width: 70rem;
+}
+
+.img-content {
+    width: 100%;
+}
+
+
+
+.content .content-title {
+    color: var(--text-color);
+    font-size: 76px;
+    font-weight: 200;
+    margin-bottom: 32px
+}
+
+.content .content-sub-title {
+
+    font-family: Open Sans, sans-serif;
+    color: var(--text-color);
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 68px;
+    
+}
+
+
+
+.portfolio a{
+    max-width: 100px;
+    max-height: 100px;
+    overflow: hidden;
+    object-fit: contain;
+}
+
+.portfolio img {
+    width: 100%;
+    border-radius: 12px;
+    
+    margin-top: 32px;
+
+}
+
+.portfolio h3 {
+    text-decoration: none;
+    margin-top: 12px;
+    color: var(--text-color)
+
+}
+
+
+.blog-content {
+    margin-top: 32px;
+    margin-bottom: 3px;
+    background-size: cover;
+}
+
+.blog-content a {
+    color: var(--text-color)
+}
+
+.blog-content img {
+    border-radius: 12px;
+    object-fit: cover;
+    height: 240px
+}
+
+.blog-content h3 {
+    padding-left: 32px;
+    margin-top: 24px;
+    font-size: 32px;
+    font-weight: 300;
+
+}
+
+.blog-content p {
+    padding-left:32px;
+    margin-top: 12px;
+    margin-bottom: 60px;
+    font-family: Open Sans, sans-serif;
+}
+
+
+
+
+
+
+.list-group {
+    position: relative;
+    top: -16rem;
+
+   
+}
+.list-group a {
+    color: black;
+}
+.list-item {
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list-item:hover{
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.list-item img {
+    border-radius: 12px;
+    object-fit: cover;
+    height: 180px;
+    margin-bottom: 24px;
+    box-shadow: 0 8px 8px 8px rgba(0, 0, 0, 0.05);
+}
+
+.list-item h5 {
+    font-size: 24px;
+    color: var(--text-color);
+    font-weight: 300;
+    margin-bottom: 12px
+}
+
+.list-item p {
+    margin-bottom: 36px
+}
+
+
+
+.hero-content h2 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+.hero-content img {
+    margin-bottom: 16px;
+}
+
+.hero-content h3 {
+    font-family: Open Sans, sans-serif;
+    color: var(--button-color);
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+
+.hero-content h4 {
+    font-family: Open Sans, sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-bottom: 48px
+}
+
+
