@@ -30,7 +30,9 @@
     clear: both;
     display: block;
   }
-
+.main {
+    width: 70rem;
+}
 .section {
     padding: 160px 0 128px;
 }
