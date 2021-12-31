@@ -309,14 +309,7 @@ p {
     height: 244px
 }
 
-.footer,
-.project,
-.about_us,
-.process,
-.services,
-.responsive {
-    max-width: 70rem;
-}
+
 
 .about_us {
     text-align: center;
